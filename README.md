@@ -188,6 +188,7 @@ First pass integration tests were also established using the following technolog
 * Protractor
 * Cucumber
 * WebDriver
+
 This setup allows easy build out of an automated test suite that would be used as a regression level tests and automated on the integration server.
 
 #### L. Used a continuous integration system
