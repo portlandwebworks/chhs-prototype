@@ -4,17 +4,16 @@ Version 1.0 06/09/2016
 
 Table of Contents
 
-PROTOTYPE URL
-OVERVIEW
-INSTALLATION
-DOCUMENTATION
-CONTACT INFO
-COPYRIGHT
+- PROTOTYPE URL
+- OVERVIEW
+- INSTALLATION
+- DOCUMENTATION
+- CONTACT INFO
+- COPYRIGHT
 
 
-# PROTOTYPE URL
-​ 
-https://chhs-prototype.portlandwebworks.com
+## PROTOTYPE URL
+- https://chhs-prototype.portlandwebworks.com
 
 # OVERVIEW
 The application has been developed to meet the submission requirements for the CHHS ADPQ vendor pool selection. The application includes the ability to create an account and login in, and once logged in the user is able to perform a proximity search for a a foster care facility or agency. From the dashboard the logged-in user is also able to send and receive messages from a case worker.
@@ -96,57 +95,57 @@ On first startup a new, default, user is created with the email of `alice@casewo
 
 # TECHNICAL APPROACH
 
-A more comprehensive description of our Technical Approach can be found on our Confluence wiki - Link
+A more comprehensive description of our Technical Approach can be found on our Confluence wiki - [Link](https://confluence.portlandwebworks.com/display/CHHS/California+HHS)
 
 #### A. Assigned a team leader.
 John Gordon, Director of Software Development
 
 #### B. Team Members (and corresponding ADPQ labor categories)
-Product Manager: John Gordon
-Technical Architect: Nick Stuart
-Interaction Designer/User Researcher: Melissa Coleman
-Visual Designer: Christopher Prinn
-Front End Developer: Rachel Charow 
-Back End Developer: Joseph Descalzota
-Dev Ops Engineer: Lyle McKarns
-Security Engineer: Chris Davis
-Agile Coach: Alison Schestopol
-Quality Assurance: Carl Swanson
++ Product Manager: John Gordon
++ Technical Architect: Nick Stuart
++ Interaction Designer/User Researcher: Melissa Coleman
++ Visual Designer: Christopher Prinn
++ Front End Developer: Rachel Charow 
++ Back End Developer: Joseph Descalzota
++ Dev Ops Engineer: Lyle McKarns
++ Security Engineer: Chris Davis
++ Agile Coach: Alison Schestopol
++ Quality Assurance: Carl Swanson
 
 #### C. User Research
 User research and testing included the following:
 * User 
 * Analogous research
 * Team ideation meetings
-* Initial wireframes reviewed with user - Link
-* Updated wireframe reviewed by external testers  - Link
-* Prototypes reviewed by external users - Link
+* Initial wireframes reviewed with user - [Link](https://confluence.portlandwebworks.com/display/CHHS/Links+to+User+Testing+and+Wireframes)
+* Updated wireframe reviewed by external testers  - [Link] (https://confluence.portlandwebworks.com/display/CHHS/Links+to+User+Testing+and+Wireframes)
+* Prototypes reviewed by external users - [Link](https://confluence.portlandwebworks.com/display/CHHS/Links+to+User+Testing+and+Wireframes) 
 
 #### D. Used at least three “human-centered design” techniques or tools
 Multiple human-centered design techniques, were used in the development of the PoC.
 These included:
-* Creation of wireframes - Link
-* Creation of "user stories" - Link
-* Creating a Product Backlog - Link
-* Sharing findings with the team and incorporation of feedback - Link
-* Use of a simple and flexible design style guide - Link
-* Usability testing of wireframes - Link
-* Usability testing of prototypes  - Link
+* Creation of wireframes - [Link](https://confluence.portlandwebworks.com/display/CHHS/Links+to+User+Testing+and+Wireframes)
+* Creation of "user stories" - [Link](https://jira.portlandwebworks.com:8443/projects/CP/summary/statistics)
+* Creating a Product Backlog - [Link](https://jira.portlandwebworks.com:8443/browse/CP-110?filter=-4)
+* Sharing findings with the team and incorporation of feedback - [Link](https://confluence.portlandwebworks.com/display/CHHS/UX+Design)
+* Use of a simple and flexible design style guide - [Link](https://confluence.portlandwebworks.com/download/attachments/5604499/cwds-design-doc1.pdf?api=v2)
+* Usability testing of wireframes - [Link](https://confluence.portlandwebworks.com/display/CHHS/Links+to+User+Testing+and+Wireframes)
+* Usability testing of prototypes  - [Link](https://confluence.portlandwebworks.com/display/CHHS/Links+to+User+Testing+and+Wireframes)
 
 #### E. Created or used a design style guide 
 A visual style guide was created by the designer to define styles, colors, fonts, etc.
-Link
+[Link](https://confluence.portlandwebworks.com/download/attachments/5604499/cwds-design-doc1.pdf?api=v2)
 
 #### F. Performed usability tests with people
 Usability tests were performed at several points in the development process, including:
 * Internal testing of initial concepts
-* Testing of wireframes - Link
-* Testing of working prototypes - Link
+* Testing of wireframes - [Link](https://confluence.portlandwebworks.com/display/CHHS/Links+to+User+Testing+and+Wireframes)
+* Testing of working prototypes - [Link](https://confluence.portlandwebworks.com/display/CHHS/Links+to+User+Testing+and+Wireframes)
 
 #### G. Used an iterative approach 
 
 Our iterative approach consisted of the following steps:
-* Set up team collaboration site in Confluence – Link	
+* Set up team collaboration site in Confluence – [Link](https://confluence.portlandwebworks.com/display/CHHS)	
 * Feedback on the PoC sought and incorporated throughout
 * Use of Scrum methodology
 * On-going grooming of the product backlog
@@ -155,31 +154,27 @@ Our iterative approach consisted of the following steps:
 
 #### H. Responsive Design
 The PoC has been developed as mobile-responsive. Quality Assurance testing assured that the PoC matched business requirements:
-* Leveraged JIRA plugin test case application called Zephyr - Link
+* Leveraged JIRA plugin test case application called Zephyr - [Link](https://jira.portlandwebworks.com:8443/projects/CP?selectedItem=com.thed.zephyr.je:zephyr-tests-page)
 * Regression testing of desktop, mobile, and tablet
 * One test case for each user story
 * If test case passes the story is closed, if it fails a subtask is created and it is retested
 * Fixes not addressed were added to the Backlog for future enhancements
 
-For integration tests,  happy-path testing was conducted on stories CP-21, CP-16, CP-19, and CP-23 using Protractor, Cucumber, and Selenium:
-* Protractor is designed to drive AngularJS apps with base steps written in JavaScript
-* Cucumber employs base steps using pseudo-human-readable scripts
-* Selenium drives automation in browsers
 
 #### I. Used at least five modern and open-source technologies
 
 Numerous open-source technologies have been utilized. They include:
 * HTML/SASS/CSS - front-end layout and styling
-* AngularJS 1.5.5 - client site interaction and application logic
+* [AngularJS 1.5.5](https://angularjs.org/) - client site interaction and application logic
 * Node/NPM with Bower+Gulp - Manage JS dependencies and SASS/JS build tasks
-* Spring Boot with Hibernate / JPA and Jersey - server side logic
-* Liquibase - Database schema migration source control
+* [Spring Boot](http://projects.spring.io/spring-boot/) with [Hibernate](http://hibernate.org/orm/) / JPA and Jersey - server side logic
+* [Liquibase](http://www.liquibase.org/) - Database schema migration source control
 * TravisCI - continuous integration
 * MySQL - data storage
  
 #### J. Deployed the prototype on PaaS
-The PoC has been deployed to Google Cloud Container Engine (https://cloud.google.com/container-engine/).
-The Container Engine is built on the open source Kubernetes (http://kubernetes.io/) system, providing flexibility to take advantage of on-premises, hybrid, or public cloud infrastructure.
+The PoC has been deployed to Google Cloud Container Engine [Link](https://cloud.google.com/container-engine/).
+The Container Engine is built on the open source [Kubernetes](http://kubernetes.io/) system, providing flexibility to take advantage of on-premises, hybrid, or public cloud infrastructure.
 Many cloud providers are working to integrate Kubernetes into their platforms such as Red Hat, Microsoft, IBM, OpenStack, and VMware. Kubernetes can also be deployed to Amazon GovClouds.
 Kubernetes also has a number of other benefits such as the ability to automatically scale based on real-time user demand.
 
@@ -189,7 +184,13 @@ First pass integration tests were also established using the following technolog
 * Protractor
 * Cucumber
 * WebDriver
+
 This setup allows easy build out of an automated test suite that would be used as a regression level tests and automated on the integration server.
+
+For integration tests,  happy-path testing was conducted on stories CP-21, CP-16, CP-19, and CP-23 using Protractor, Cucumber, and Selenium:
+* Protractor is designed to drive AngularJS apps with base steps written in JavaScript
+* Cucumber employs base steps using pseudo-human-readable scripts
+* Selenium drives automation in browsers
 
 #### L. Used a continuous integration system
 This project is leveraging Travis CI for it's build environment. 
@@ -201,14 +202,14 @@ Travis CI also handles deployment of the Docker images to a public repository an
 By utilizing Kubernetes, we are able to deploy and update secrets and application configuration without rebuilding the Docker image and without exposing sensitive data in your project source code. 
 
 #### N. Setup or used continuous monitoring
-This project is monitored using Google Stack Driver, the monitoring tools build into the Google Cloud Platform. The following tests are in place:
+This project is monitored using [Google Stack Driver](https://app.google.stackdriver.com/), the monitoring tools build into the Google Cloud Platform. The following tests are in place:
 * Front end URL Monitoring - Tracking and alerting on changes in the availability of the front end service
 * Back end URL Monitoring - Tracking and alerting on changes in the availability of the back end service
 * Disk Throughput - Monitoring the disk usage on the Kubernetes nodes. Alerting if throughput is sustained near the maximum
 * Cluster CPU - Monitoring the CPU of kubernetes cluster in aggregate. 
 
 #### O. Deployed their software in a container
-This project is deployed using Docker container technology. This allows the application to be portable between most major cloud providers, as well as providing a consistent environment between development and production.
+This project is deployed using [Docker](https://www.docker.com/) container technology. This allows the application to be portable between most major cloud providers, as well as providing a consistent environment between development and production.
  
 #### P. Provided sufficient documentation to install and run their prototype on another machine
 The README.md file located in the repository contains complete instructions for deploying and running the prototype on another machine.
@@ -221,7 +222,7 @@ All of the tools used to create and run the prototype are openly licensed and fr
 # CONTACT INFO
 
 Phone: 207-773-6600
-Website: http://www.portlandwebworks.com
+Website: [http://www.portlandwebworks.com](http://www.portlandwebworks.com)
 Email: info@portlandwebworks.com
 
 # COPYRIGHT
