@@ -10,6 +10,8 @@
 
 ### Wireframes
 
+[Design Assets/Wireframes] (Design%20Assets/Wireframes)
+
 ### User Testing Artifacts
 
 ## Project Management Artifacts
