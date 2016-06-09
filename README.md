@@ -162,6 +162,7 @@ The PoC has been developed as mobile-responsive. Quality Assurance testing assur
 * If test case passes the story is closed, if it fails a subtask is created and it is retested
 * Fixes not addressed were added to the Backlog for future enhancements
 
+[Release Notes](https://confluence.portlandwebworks.com/download/attachments/5604518/CHHS-POC-1_Release_Notes.docx?version=1&modificationDate=1465512891686&api=v2)
 
 #### I. Used at least five modern and open-source technologies
 
