@@ -160,10 +160,6 @@ The PoC has been developed as mobile-responsive. Quality Assurance testing assur
 * If test case passes the story is closed, if it fails a subtask is created and it is retested
 * Fixes not addressed were added to the Backlog for future enhancements
 
-For integration tests,  happy-path testing was conducted on stories CP-21, CP-16, CP-19, and CP-23 using Protractor, Cucumber, and Selenium:
-* Protractor is designed to drive AngularJS apps with base steps written in JavaScript
-* Cucumber employs base steps using pseudo-human-readable scripts
-* Selenium drives automation in browsers
 
 #### I. Used at least five modern and open-source technologies
 
@@ -190,6 +186,11 @@ First pass integration tests were also established using the following technolog
 * WebDriver
 
 This setup allows easy build out of an automated test suite that would be used as a regression level tests and automated on the integration server.
+
+For integration tests,  happy-path testing was conducted on stories CP-21, CP-16, CP-19, and CP-23 using Protractor, Cucumber, and Selenium:
+* Protractor is designed to drive AngularJS apps with base steps written in JavaScript
+* Cucumber employs base steps using pseudo-human-readable scripts
+* Selenium drives automation in browsers
 
 #### L. Used a continuous integration system
 This project is leveraging Travis CI for it's build environment. 
