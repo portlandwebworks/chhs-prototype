@@ -101,16 +101,16 @@ A more comprehensive description of our Technical Approach can be found on our C
 John Gordon, Director of Software Development
 
 #### B. Team Members (and corresponding ADPQ labor categories)
-Product Manager: John Gordon
-Technical Architect: Nick Stuart
-Interaction Designer/User Researcher: Melissa Coleman
-Visual Designer: Christopher Prinn
-Front End Developer: Rachel Charow 
-Back End Developer: Joseph Descalzota
-Dev Ops Engineer: Lyle McKarns
-Security Engineer: Chris Davis
-Agile Coach: Alison Schestopol
-Quality Assurance: Carl Swanson
++ Product Manager: John Gordon
++ Technical Architect: Nick Stuart
++ Interaction Designer/User Researcher: Melissa Coleman
++ Visual Designer: Christopher Prinn
++ Front End Developer: Rachel Charow 
++ Back End Developer: Joseph Descalzota
++ Dev Ops Engineer: Lyle McKarns
++ Security Engineer: Chris Davis
++ Agile Coach: Alison Schestopol
++ Quality Assurance: Carl Swanson
 
 #### C. User Research
 User research and testing included the following:
