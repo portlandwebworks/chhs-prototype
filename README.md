@@ -126,7 +126,7 @@ User research and testing included the following:
 Multiple human-centered design techniques, were used in the development of the PoC.
 These included:
 * Creation of wireframes - [Link](https://confluence.portlandwebworks.com/display/CHHS/Links+to+User+Testing+and+Wireframes)
-* Creation of "user stories" - [Link](https://jira.portlandwebworks.com:8443/projects/CP/summary/statistics)
+* Creation of "user stories" - [Link](https://confluence.portlandwebworks.com/display/CHHS/Product+requirements?&pagepropertiesreport.serverrender)
 * Creating a Product Backlog - [Link](https://github.com/portlandwebworks/chhs-prototype/blob/develop/docs/Project%20Management%20Artifacts/JIRA%20Screenshot%20-%20Backlog.png)
 * Sharing findings with the team and incorporation of feedback - [Link](https://confluence.portlandwebworks.com/display/CHHS/UX+Design)
 * Use of a simple and flexible design style guide - [Link](https://confluence.portlandwebworks.com/download/attachments/5604499/cwds-design-doc1.pdf?api=v2)
