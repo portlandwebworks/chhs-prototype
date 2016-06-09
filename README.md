@@ -96,7 +96,8 @@ On first startup a new, default, user is created with the email of `alice@casewo
 # TECHNICAL APPROACH
 
 A more comprehensive description of our Technical Approach can be found on our Confluence wiki - [Link](https://confluence.portlandwebworks.com/display/CHHS/California+HHS)
-In the event that external artifacts are not considered admissable as part of this submission, we have also provided many of the associated artifacts within the repository - [Link](https://github.com/portlandwebworks/chhs-prototype/tree/develop/docs)
+
+In the event that external artifacts are not considered admissable, we have also provided many of the associated documents and images within this repository - [Link](https://github.com/portlandwebworks/chhs-prototype/tree/develop/docs)
 
 #### A. Assigned a team leader.
 John Gordon, Director of Software Development
@@ -155,12 +156,13 @@ Our iterative approach consisted of the following steps:
 
 #### H. Responsive Design
 The PoC has been developed as mobile-responsive. Quality Assurance testing assured that the PoC matched business requirements:
-* Leveraged JIRA plugin test case application called Zephyr - [Link](https://jira.portlandwebworks.com:8443/projects/CP?selectedItem=com.thed.zephyr.je:zephyr-tests-page)
+* Leveraged JIRA plugin test case application called Zephyr - [Link](https://github.com/portlandwebworks/chhs-prototype/blob/develop/docs/Project%20Management%20Artifacts/Zephyr%20Test%20Progress.png)
 * Regression testing of desktop, mobile, and tablet
 * One test case for each user story
 * If test case passes the story is closed, if it fails a subtask is created and it is retested
 * Fixes not addressed were added to the Backlog for future enhancements
 
+[Release Notes](https://confluence.portlandwebworks.com/download/attachments/5604518/CHHS-POC-1_Release_Notes.docx?version=1&modificationDate=1465512891686&api=v2)
 
 #### I. Used at least five modern and open-source technologies
 
