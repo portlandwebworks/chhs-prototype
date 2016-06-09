@@ -96,6 +96,7 @@ On first startup a new, default, user is created with the email of `alice@casewo
 # TECHNICAL APPROACH
 
 A more comprehensive description of our Technical Approach can be found on our Confluence wiki - [Link](https://confluence.portlandwebworks.com/display/CHHS/California+HHS)
+
 In the event that external artifacts are not considered admissable as part of this submission, we have also provided many of the associated artifacts within the repository - [Link](https://github.com/portlandwebworks/chhs-prototype/tree/develop/docs)
 
 #### A. Assigned a team leader.
