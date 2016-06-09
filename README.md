@@ -180,7 +180,7 @@ The PoC has been deployed to Google Cloud Container Engine [Link](https://cloud.
 The Container Engine is built on the open source [Kubernetes](http://kubernetes.io/) system, providing flexibility to take advantage of on-premises, hybrid, or public cloud infrastructure.
 Many cloud providers are working to integrate Kubernetes into their platforms such as Red Hat, Microsoft, IBM, OpenStack, and VMware. Kubernetes can also be deployed to Amazon GovCloud.
 Kubernetes also has a number of other benefits such as the ability to automatically scale based on real-time user demand. 
-Please see the kubernetes (https://github.com/portlandwebworks/chhs-prototype/kubernetes) folder for a functional demo of the code used to provision the prototype environment.
+Please see the kubernetes (https://github.com/portlandwebworks/chhs-prototype/tree/develop/kubernetes) folder for a functional demo of the code used to provision the prototype environment.
 
 #### K. Developed automated unit tests for their code
 JUnit and EasyMock were utilized to cover unit testing needs while utilizing Spring based design methodologies to help write testable code. 
