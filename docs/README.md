@@ -6,7 +6,7 @@
 
 ### Screen Comps
 
-[Design%20Assets/Screen%20Comps] (Design%20Assets/Screen%20Comps)
+[Design Assets/Screen Comps] (Design%20Assets/Screen%20Comps)
 
 ### Wireframes
 
