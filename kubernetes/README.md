@@ -1,23 +1,14 @@
 # cchs-kubernetes-demo 
 
+Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications. This contains a fully functional provisioning code that can be used to deploy the published Docker images to a high-availability cluster in the Google Compute Engine platform.
 
-
-Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.
-
-## Advantages
+## Notes
 - High Availability
 - Auto Scaling
 - Docker based containers 
 - Platform Independent 
 - Open Source
-
-
-## Limitations
-- A robust database tier is more difficult to implement with Kubernetes.  
-- AWS RDS Multi-AZ for database tier provides better redundency and automated failover and is recommened for production deployments.
-- Kubernetes is not compatible with Amazon's EC2 Container Service. However, the underlying docker container architecture is fully supported. 
-
-
+- Utilizing a High Availability Google Cloud SQL Database [https://cloud.google.com/sql/](https://cloud.google.com/sql/)
 
 ### Quickstart
 ```
@@ -32,3 +23,14 @@ kubectl create -f backend-controller.yml
 kubectl create -f frontend-service.yml
 kubectl create -f backend-service.yml
 ```
+
+### Docker Infrastructure
+The Kubernetes platform leverages [Docker] (https://www.docker.com/what-docker) containers for all of it's deployments.
+
+To demonstrate the power of Docker, there is a quick demo of the environment that can be setup locally using Docker Compose. If you have Docker installed, you launch a local environment using the publically accessible Docker Images used to power the Prototype. From the current directory, just run the following and visit [http://localhost:8080/](http://localhost:8080/).
+
+```
+docker-compose up
+```
+
+Please see the `docker-compose.yml` in the current directory to see how this works.
