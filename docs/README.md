@@ -1,4 +1,14 @@
 # Additional Project Documentation
 
-## Design Documentation
-[Design Document](cwds-design-doc1.pdf) _(PDF 3.0M)_
+## Design Assets
+### Style Guide
+[Design Document](cwds-design-doc1.pdf)
+
+### Screen Comps
+
+### Wireframes
+
+### User Testing Artifacts
+
+## Project Management Artifacts
+
