@@ -2,7 +2,7 @@
 Version 1.0 06/09/2016
 
 
-#### Table of Contents
+####Table of Contents
 
 - PROTOTYPE URL
 - OVERVIEW
@@ -96,7 +96,6 @@ On first startup a new, default, user is created with the email of `alice@casewo
 # TECHNICAL APPROACH
 
 A more comprehensive description of our Technical Approach can be found on our Confluence wiki - [Link](https://confluence.portlandwebworks.com/display/CHHS/California+HHS)
-
 In the event that external artifacts are not considered admissable as part of this submission, we have also provided many of the associated artifacts within the repository - [Link](https://github.com/portlandwebworks/chhs-prototype/tree/develop/docs)
 
 #### A. Assigned a team leader.
@@ -177,8 +176,8 @@ Numerous open-source technologies have been utilized. They include:
 #### J. Deployed the prototype on PaaS
 The PoC has been deployed to Google Cloud Container Engine [Link](https://cloud.google.com/container-engine/).
 The Container Engine is built on the open source [Kubernetes](http://kubernetes.io/) system, providing flexibility to take advantage of on-premises, hybrid, or public cloud infrastructure.
-Many cloud providers are working to integrate Kubernetes into their platforms such as Red Hat, Microsoft, IBM, OpenStack, and VMware. Kubernetes can also be deployed to Amazon GovClouds.
-Kubernetes also has a number of other benefits such as the ability to automatically scale based on real-time user demand.
+Many cloud providers are working to integrate Kubernetes into their platforms such as Red Hat, Microsoft, IBM, OpenStack, and VMware. Kubernetes can also be deployed to Amazon GovCloud.
+Kubernetes also has a number of other benefits such as the ability to automatically scale based on real-time user demand. Please see the kubernetes (https://github.com/portlandwebworks/chhs-prototype/tree/develop/kubernetes) folder for a functional demo of the code used to provision the prototype environment.
 
 #### K. Developed automated unit tests for their code
 JUnit and EasyMock were utilized to cover unit testing needs while utilizing Spring based design methodologies to help write testable code. 
@@ -204,11 +203,10 @@ Travis CI also handles deployment of the Docker images to a public repository an
 By utilizing Kubernetes, we are able to deploy and update secrets and application configuration without rebuilding the Docker image and without exposing sensitive data in your project source code. 
 
 #### N. Setup or used continuous monitoring
-This project is monitored using [Google Stack Driver](https://app.google.stackdriver.com/), the monitoring tools build into the Google Cloud Platform. The following tests are in place:
-* Front end URL Monitoring - Tracking and alerting on changes in the availability of the front end service
-* Back end URL Monitoring - Tracking and alerting on changes in the availability of the back end service
+This project is monitored using [Google Stack Driver](https://app.google.stackdriver.com/), the monitoring tools are built into the Google Cloud Platform. Additionally, StackDriver Logging aggregates and analyze all of the logs from the deployed containers. The following tests are in place:
+* URL Monitoring - Tracking and alerting on the availability of the front end  and backend services
 * Disk Throughput - Monitoring the disk usage on the Kubernetes nodes. Alerting if throughput is sustained near the maximum
-* Cluster CPU - Monitoring the CPU of kubernetes cluster in aggregate. 
+* Cluster CPU - Monitoring the CPU of kubernetes cluster 
 
 #### O. Deployed their software in a container
 This project is deployed using [Docker](https://www.docker.com/) container technology. This allows the application to be portable between most major cloud providers, as well as providing a consistent environment between development and production.
