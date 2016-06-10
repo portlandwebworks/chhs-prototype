@@ -156,7 +156,7 @@ Our iterative approach consisted of the following steps:
 
 #### H. Responsive Design
 The PoC has been developed as mobile-responsive. Quality Assurance testing assured that the PoC matched business requirements:
-* Leveraged JIRA plugin test case application called Zephyr - [Link](https://github.com/portlandwebworks/chhs-prototype/blob/develop/docs/Project%20Management%20Artifacts/Zephyr%20Test%20Progress.png)
+* Leveraged JIRA plugin test case application called Zephyr - [Link](https://github.com/portlandwebworks/chhs-prototype/blob/develop/docs/Project%20Management%20Artifacts/Testing%20Progress%20Image.png)
 * Regression testing of desktop, mobile, and tablet
 * One test case for each user story
 * If test case passes the story is closed, if it fails a subtask is created and it is retested
