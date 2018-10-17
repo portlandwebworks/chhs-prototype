@@ -33,6 +33,7 @@ after_success:
 - docker push $REPO
 - curl https://sdk.cloud.google.com | bash
 - source /home/travis/.bashrc
+- source $HOME/google-cloud-sdk/path.bash.inc
 - gcloud components update kubectl
 - kubectl config set-credentials default --username=${GKE_USERNAME} --password=${GKE_PASSWORD}
 - kubectl config set-cluster default --server=${GKE_SERVER} --insecure-skip-tls-verify=true
