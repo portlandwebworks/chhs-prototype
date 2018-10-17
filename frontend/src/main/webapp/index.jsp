@@ -17,7 +17,7 @@
     <div class="site-footer"></div>
 
     <!-- Third-party libraries -->
-    <script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+    <script src='//maps.googleapis.com/maps/api/js?key=AIzaSyCaxvl2qyLERmbuoCfWUWmn0PW6XcHgpIU'></script>
 
     <!-- build:externalJs lib/lib-all.js -->
     <script src='bower_components/lodash/dist/lodash.js'></script>
