@@ -12,9 +12,6 @@ Version 1.0 06/09/2016
 - COPYRIGHT
 
 
-## PROTOTYPE URL
-- https://chhs-prototype.portlandwebworks.com
-
 # OVERVIEW
 The application has been developed to meet the submission requirements for the CHHS ADPQ vendor pool selection. The application includes the ability to create an account and login in, and once logged in the user is able to perform a proximity search for a a foster care facility or agency. From the dashboard the logged-in user is also able to send and receive messages from a case worker.
 
